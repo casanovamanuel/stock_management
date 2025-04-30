@@ -12,7 +12,6 @@ public class CatalogService {
     private ProductRepository productRepository;
 
     public Iterable<Product> getProducts() {
-        System.out.println(productRepository.getClass());
         return productRepository.findAll();
     }
 
