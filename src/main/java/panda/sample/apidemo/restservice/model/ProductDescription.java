@@ -39,14 +39,16 @@ public class ProductDescription {
         this.producer = producer;
     }
 
-    private Boolean isPretty() {
-        if (this.id == 0)
-            return false;
-        if (this.name == null)
-            return false;
-        if (this.producer == null)
-            return false;
-        return true;
-    }
+    /*
+     * private Boolean isPretty() {
+     * if (this.id == 0)
+     * return false;
+     * if (this.name == null)
+     * return false;
+     * if (this.producer == null)
+     * return false;
+     * return true;
+     * }
+     */
 
 }

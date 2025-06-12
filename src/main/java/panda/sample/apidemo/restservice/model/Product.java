@@ -35,12 +35,14 @@ public class Product {
         this.description = newDescription;
     }
 
-    private Boolean isPretty() {
-        if (this.id == 0)
-            return false;
-        if (this.description == null)
-            return false;
-        return true;
-    }
+    /*
+     * private Boolean isPretty() {
+     * if (this.id == 0)
+     * return false;
+     * if (this.description == null)
+     * return false;
+     * return true;
+     * }
+     */
 
 }
